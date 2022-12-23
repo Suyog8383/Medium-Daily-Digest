@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <strong>Deep Copy:</strong> While making a copy, the values from the
+    original variable is copied to the new variable but there is no relation
+    between the original and new (copied) variable. Also, If we change the value
+    of the original variable that will not have any effect on the value of the
+    copied variable. <br />
+    <h4>
+      The various primitive data types are: Number, String and Boolean When you
+      copy a variable that consists of these data types, you will get a real
+      copy (deep copy).
+    </h4>
+    <br />
+    <strong>Shallow Copy:</strong> When you copy a variable, the values from the
+    original variable are copied to the new one, but certain values remain
+    linked to the original variable. <br />
+    <h4>
+      The various composite data types in Js are objects and arrays. In js array
+      is also an object. When these types of data are used, the values are only
+      stored once upon the creation of an object. When you try to make a copy of
+      these variables, it just creates a pointer( reference ) to the original
+      object. This is called Shallow Copy.
+    </h4>
+
+    <script src="Flatten array.js"></script>
+  </body>
+</html>
