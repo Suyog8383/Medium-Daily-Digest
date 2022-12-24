@@ -7,7 +7,6 @@ function permutation(nums, final = [], temp = []) {
     final.push(nums[i]);
     const choises = nums.filter((num, index) => index !== i);
     permutation(choises, final, temp);
-
     final.pop();
   }
   return temp;
